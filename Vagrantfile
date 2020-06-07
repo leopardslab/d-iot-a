@@ -6,7 +6,7 @@ $script = <<-SCRIPT
 
 echo "cd /vagrant" >> /home/vagrant/.profile
 echo "cd /vagrant" >> /home/vagrant/.bashrc
-echo "All good!!"
+echo "Starting!!"
 SCRIPT
 
 Vagrant.configure("2") do |config|
