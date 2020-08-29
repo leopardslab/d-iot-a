@@ -310,9 +310,7 @@ func (S *SmartContract) queryCarsByOwner(APIstub shim.ChaincodeStubInterface, ar
 	if err != nil {
 		return shim.Error(err.Error())
 	}
-
 	defer ownerAndIdResultIterator.Close()
-
 	var i int
 	var id string
 
